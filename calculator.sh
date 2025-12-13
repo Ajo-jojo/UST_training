@@ -26,7 +26,7 @@ elif [[ "$op" == "*" ]]; then
 
 elif [[ "$op" == "/" ]]; then
     
-    if [ "$num2" == 0 ]; then
+    if [[ "$num2" == 0 ]]; then
         echo "Error: Cannot divide by zero!"
     else
         
@@ -36,7 +36,7 @@ elif [[ "$op" == "/" ]]; then
 
 elif [[ "$op" == "%" ]]; then
     
-    if [ "$num2" -eq 0 ]; then
+    if [[ "$num2" -eq 0 ]]; then
         echo "Error: Cannot perform modulo with zero!"
     else
         
